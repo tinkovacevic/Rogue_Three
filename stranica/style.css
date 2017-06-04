@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+main{
+	max-width: 60%;
+	margin: auto;
+	/* background-color:black; */
+}
+
+/* NAV */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	width: 33.3333333%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+	/* max-width:33.333333%; */
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #609dff;
+}
+
+/* HEADER */
+header{
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	border-bottom: 1.5px solid #111;
+}
+header p{
+	text-align: center;
+	font-size: 2.345em;
+}
+
+/* ASIDE */
+aside{
+	float: left;
+	border-right: 1.5px solid #111;
+	width:25%;
+	max-width: 25%;
+	margin-top: 3px;
+	/* background-color:grey; */
+}
+aside p{
+	text-align: center;
+	font-size: 2em;
+	padding:4px;
+}
+
+/* ASIDE */
+.aside1 {
+    position: relative;
+    display: inline-block;
+	width: 100%;
+}
+.aside2{
+    background-color: #609dff;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+	width: 100%;
+	margin-top:5px;
+}
+
+/* KREATOR FORM */
+#kreatorForm{
+	width:100%;
+	font-size:15px;
+}
+#kreatorForm input{
+	margin-top:10px;
+	margin-left:7%;
+}
+#kreatorForm input[type=submit]{
+	background-color: #609dff;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+	width: 100%;
+	margin-top:5px;
+	margin: 0;
+	margin-top: 7px;
+}
+#kreatorForm input[type=submit]:hover{
+	background-color: #4077ce;
+	cursor: pointer;
+}
+
+
+.aside3{
+    background-color: #609dff;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+	width: 100%;
+	margin-top:5px;
+}
+.aside3:hover{
+	background-color: #4077ce;
+	cursor: pointer;
+}
+
+/* SECTION */
+section{
+	float: right;
+	width:74.5%;
+	max-width: 74.5%;
+	margin-top: 3px;
+}
+
+/* PROMJENA LOZ */
+#promjenaLoz{
+	width: 50%;
+	margin: auto;
+}
+#promjenaLoz input{
+	width:100%;
+	padding:10px;
+	margin-top: 5px;
+	text-align:center;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+#promjenaLoz input:focus{
+	outline:none;
+	border-bottom: 2px solid black;
+}
+#promjenaLoz input[type=submit]{
+	background-color: #609dff;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+	width: 100%;
+	margin-top: 7px;
+}
+#promjenaLoz input[type=submit]:hover{
+	background-color: #4077ce;
+	cursor: pointer;
+}
