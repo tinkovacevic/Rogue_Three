@@ -186,3 +186,15 @@ section{
 
 	padding-bottom: 10px;
 }
+/* UPRAVLJANJE GRUPAMA */
+.grupe{
+	margin: 0 10%;
+}
+.grupaButton{
+	background-color: #609dff;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+	margin-right: 10%;
+}
