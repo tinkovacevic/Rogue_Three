@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Administrator</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
@@ -33,7 +34,17 @@
 				</div>
 			</aside>
 			<!-- Pitanja -->
-			<section>
+			<section id="admincontent">
+
+				<form id="brisanjeanketa">
+					<h1>Brisanje anketa</h1>
+					<p><input type="checkbox" name="anketa0" style="border: thick" />  <span style="color:#4077ce"> Anketa 1 | </span> &quot;  Kako vam se sviđa aplikacija?	&quot;</p>
+					<p><input type="checkbox" name="anketa1" />  <span style="color:#4077ce"> Anketa 2 | </span> &quot; Koliko je 3+4?	&quot; </p>
+					<p><input type="checkbox" name="anketa2" />  <span style="color:#4077ce"> Anketa 3 | </span> &quot;  Gdje ste bili '91?	&quot;</p>
+					<p><input type="checkbox" name="anketa3" />  <span style="color:#4077ce"> Anketa 4 | </span> &quot;  Tko je gradonačelnik Zagreba?	&quot;</p>
+					<button type="button" name="Brisi" style="padding: 10px; font-size: 15px ">Obriši anketu</button>
+				</form>
+
 			</section>
 		</main>
 	</body>
