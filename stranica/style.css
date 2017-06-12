@@ -202,3 +202,8 @@ section{
 	margin: 15px auto;
 	width: 50%;
 }
+
+.label{
+	color: #609dff;
+	font-weight: bold;
+}
