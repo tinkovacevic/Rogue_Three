@@ -186,6 +186,11 @@ section{
 
 	padding-bottom: 10px;
 }
+.label{
+	color: #609dff;
+	font-weight: bold;
+}
+
 /* UPRAVLJANJE GRUPAMA */
 .grupe{
 	margin: 0 10%;
@@ -203,7 +208,4 @@ section{
 	width: 50%;
 }
 
-.label{
-	color: #609dff;
-	font-weight: bold;
-}
+
