@@ -207,5 +207,21 @@ section{
 	margin: 15px auto;
 	width: 50%;
 }
+/* KORISNIK */
+.odgovor{
+	width: 80%;
+	margin: 0 10%;
+	
+}
+.odgovor p{
+	padding: 10px 0;
+}
 
+.odgovor input{
+	padding: 5px;
+}
+
+.odgovor input[type=text]{
+	width:50%;
+}
 
