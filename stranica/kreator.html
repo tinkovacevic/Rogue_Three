@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Kreator upita</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
@@ -28,14 +29,14 @@
 					<button class="aside2">Vrsta odgovora</button>
 				</div>
 				<form id="kreatorForm">
-					<input type="radio" name="odg" value="visestruki">Višestruki odabir</input> <br/>
-					<input type="radio" name="odg" value="potvrdni">Potvrdni okviri</input> <br/>
-					<input type="radio" name="odg" value="tekst">Kratak tekst</input> 
+					<input type="radio" name="odg" value="visestruki"> Višestruki odabir</input> <br/>
+					<input type="radio" name="odg" value="potvrdni"> Potvrdni okviri</input> <br/>
+					<input type="radio" name="odg" value="tekst"> Kratak tekst</input> 
 				<!-- Anonimna anketa checkbox -->
 				<div class="aside1">
 					<button class="aside2">Anonimna anketa?</button>
 				</div>
-					<input type="checkbox" name="anon" value="yes">Da</input>
+					<input type="checkbox" name="anon" value="yes"> Da</input>
 				<!-- Datum objave ankete  -->
 				<div class="aside1">
 					<button class="aside2">Datum objave ankete</button>
@@ -50,10 +51,10 @@
 				<div class="aside1">
 					<button class="aside2">Grupe koje vide anketu</button>
 				</div>
-					<input type="checkbox" name="grp" value="grp1">Grupa 1</input> <br/>
-					<input type="checkbox" name="grp" value="grp2">Grupa 2</input> <br/>
-					<input type="checkbox" name="grp" value="grp3">Grupa 3</input> <br/>
-					<input type="checkbox" name="grp" value="grp4">Grupa 4</input> <br/>
+					<input type="checkbox" name="grp" value="grp1"> Grupa 1</input> <br/>
+					<input type="checkbox" name="grp" value="grp2"> Grupa 2</input> <br/>
+					<input type="checkbox" name="grp" value="grp3"> Grupa 3</input> <br/>
+					<input type="checkbox" name="grp" value="grp4"> Grupa 4</input> <br/>
 				<div class="aside1">
 					<input type="submit" value="Submit"/>
 				</div>
@@ -62,6 +63,10 @@
 			</aside>
 			<!-- Pitanja -->
 			<section>
+				<form id="promjenaLoz"> 
+					<input type="test" name="unosPitanja" placeholder="quis leget haec?"/>
+					<input type="submit" value="Dodaj" name="dodaj"/>
+				</form>
 			</section>
 		</main>
 	</body>

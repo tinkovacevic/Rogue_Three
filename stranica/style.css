@@ -1,7 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+body{
+	background-image: url("https://moj.tvz.hr/slika/back.png");
+	background-repeat: repeat;
+}
+
 main{
 	max-width: 60%;
 	margin: auto;
@@ -53,6 +60,7 @@ header p{
 
 /* ASIDE */
 aside{
+	background-color: whitesmoke;
 	float: left;
 	border-right: 1.5px solid #111;
 	width:25%;
@@ -98,7 +106,6 @@ aside p{
     font-size: 14px;
     border: none;
 	width: 100%;
-	margin-top:5px;
 	margin: 0;
 	margin-top: 7px;
 }
@@ -124,10 +131,13 @@ aside p{
 
 /* SECTION */
 section{
+	background-color: whitesmoke;
 	float: right;
 	width:74.5%;
 	max-width: 74.5%;
 	margin-top: 3px;
+	margin-bottom: 10px;
+	padding-top: 10px;
 }
 
 /* PROMJENA LOZ */
@@ -160,3 +170,58 @@ section{
 	background-color: #4077ce;
 	cursor: pointer;
 }
+
+#brisanjeanketa {
+	width: 80%;
+	margin: auto;
+}
+
+#brisanjeanketa p{
+	padding: 5px;
+	border-bottom: 1px solid #111111;
+	margin-bottom: 5px;
+	background-color: white;
+}
+#brisanjeanketa h1{
+
+	padding-bottom: 10px;
+}
+.label{
+	color: #609dff;
+	font-weight: bold;
+}
+
+/* UPRAVLJANJE GRUPAMA */
+.grupe{
+	margin: 0 10%;
+}
+.grupaButton{
+	background-color: #609dff;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+	margin-right: 10%;
+}
+.pitanje{
+	margin: 15px auto;
+	width: 50%;
+}
+/* KORISNIK */
+.odgovor{
+	width: 80%;
+	margin: 0 10%;
+	
+}
+.odgovor p{
+	padding: 10px 0;
+}
+
+.odgovor input{
+	padding: 5px;
+}
+
+.odgovor input[type=text]{
+	width:50%;
+}
+
