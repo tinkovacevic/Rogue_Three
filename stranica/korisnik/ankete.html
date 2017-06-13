@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ankete</title>
+		<link rel="stylesheet" href="../style.css">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	</head>
+	<body>
+		<!-- Glavni, centrirani dio -->
+		<main>
+			<!-- Korisnik, Ankete , Rezultati -->
+			<nav>
+				<ul>
+					<li><a href="korisnik.html">Korisnik</a></li>
+					<li><a class="active" href="ankete.html">Ankete</a></li>
+					<li><a href="rezultati.html">Rezultati</a></li>
+				</ul>
+			</nav>
+			<!-- Naslov -->
+			<header>
+				<p>Ankete</p>
+			</header>
+			<!-- Opcije -->
+			<aside>
+				<div class="aside1">
+					<a href="#"><button class="aside3" >Anketa 1</button></a>
+				</div>
+				<div class="aside1">
+					<a href="#"><button class="aside3" >Anketa 2</button></a>
+				</div>				
+				<div class="aside1">
+					<a href="#"><button class="aside3" >Anketa 3</button></a>
+				</div>
+				
+			</aside>
+			<!-- Pitanja -->
+			<section>
+				<div class="odgovor">
+					<p>1. qualis artifex pereo?</p>
+					<input type="radio" name="prviOdg" value="dobar" checked/> Dobar<br/>
+					<input type="radio" name="prviOdg" value="los"/> Loš<br/>
+					<input type="radio" name="prviOdg" value="zao"/> Zao<br/>
+					
+					<p>2. quid agis?</p>
+					<input type="text" name="drugiOdg"/><br/>
+					
+					<p>3. quomodo vales?</p>
+					<input type="checkbox" name="treciOdg" value="ljut"/> Ljut sam<br/>
+					<input type="checkbox" name="treciOdg" value="sretan"/> Sretan sam<br/>
+					<input type="checkbox" name="treciOdg" value="iznenaden"/> Iznenađen sam<br/>
+					<input type="checkbox" name="treciOdg" value="uplasen"/> Uplašen sam<br/>
+					
+					<br/><br/>
+					<input type="submit" value="Predaj"/>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
